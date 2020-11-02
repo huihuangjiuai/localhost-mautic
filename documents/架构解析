@@ -1,0 +1,22 @@
+运行环境要求：
+Mautic 3
+php要求               version >=7.2.21 <=7.4                          本地:7.3.4
+数据库要求            version >= 5.7 || MariaDB >= 10.2               本地：mysql 5.7.26
+web服务器要求：        apache >= 2.X  ||  nginx >= 1.0(建议>=1.8)      本地：2.4.39
+支持的Web服务器：
+阿帕奇[1]	2.x +	http://www.apache.org
+Nginx [2]	1.0 +（推荐1.8）	http://wiki.nginx.org/
+Microsoft IIS [2]	7	http://www.iis.net
+
+底层框架：Mautic基于流行的PHP框架Symfony构建（Mautic 1.0.x使用Symfony 2.5； Mautic 2.0.x使用Symfony 2.8）。
+
+Mautic和标准Symfony之间存在一些结构差异
+Symfony	                                                    Mautic
+src/	                                                    app/bundles (Mautic core) or plugins/ (Mautic plugins)
+web/	                                                    /
+AcmeBundle/Resources/config	                                AcmeBundle/Config
+AcmeBundle/Resources/views	                                AcmeBundle/Views
+AcmeBundle/Resources/public	                                AcmeBundle/Assets
+AcmeBundle/Resources/translations/domain.en_US.ini	        AcmeBundle/Translations/en_US/domain.ini
+
+

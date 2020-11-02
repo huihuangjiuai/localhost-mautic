@@ -1,0 +1,2 @@
+php bin/console mautic:install http://test.localhost.maituc.com --admin_firstname=jia --admin_lastname=haorui --admin_username=admin --admin_email=81405982@qq.com --admin_password=111111
+Mautic Install
