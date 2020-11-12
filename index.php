@@ -8,10 +8,11 @@
  *
  * @license     GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
  */
+
 define('MAUTIC_ROOT_DIR', __DIR__);
 
 // Fix for hosts that do not have date.timezone set, it will be reset based on users settings
-date_default_timezone_set('UTC');
+date_default_timezone_set('Asia/Shanghai');
 
 require_once __DIR__.'/app/autoload.php';
 

@@ -8,7 +8,7 @@
 define('MAUTIC_ROOT_DIR', __DIR__);
 
 // Fix for hosts that do not have date.timezone set, it will be reset based on users settings
-date_default_timezone_set('UTC');
+date_default_timezone_set('Asia/Shanghai');
 
 require_once __DIR__.'/vendor/autoload.php';
 
