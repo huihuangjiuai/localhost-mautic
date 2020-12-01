@@ -1,2 +1,45 @@
 php bin/console mautic:install http://test.localhost.maituc.com --admin_firstname=jia --admin_lastname=haorui --admin_username=admin --admin_email=81405982@qq.com --admin_password=111111
 Mautic Install
+
+
+
+mautic:assets:generate	                                将每个捆绑包中的资产文件合并并最小化为单个生产文件
+mautic:broadcasts:send	                                处理待处理的联系人以接收频道广播。
+mautic:campaigns:execute	                            执行特定的预定事件。
+mautic:campaigns:messagequeue	                        处理消息队列发送。
+mautic:campaigns:messages	                            处理消息队列发送。
+mautic:campaigns:rebuild	                            根据联系人细分重建广告系列。
+mautic：campaigns：trigger	                            触发已发布活动的定时事件。
+mautic:campaigns:update	                                根据联系人细分重建广告系列。
+mautic:campaigns:validate	                            验证联系人是否对某个决策无效，如果是，则执行事件。
+mautic:citrix:sync	                                    同步Citrix产品中的注册人信息
+mautic:contacts:deduplicate	                            根据相同的唯一标识符合并联系人
+mautic:email:fetch	                                    提取并处理受监控的电子邮件。
+mautic:emails:send	                                    处理SwiftMail的邮件队列
+mautic:import	                                        将数据导入Mautic
+mautic:integration:fetchleads	                        从集成中获取线索。
+mautic:integration:pipedrive:fetch	                    从Pipedrive中提取数据并将其发送到Mautic
+mautic:integration:pipedrive:push	                    将数据从Mautic推送到Pipedrive
+mautic:integration:pushactivity	                        推动潜在客户整合活动。
+mautic:integration:pushleadactivity	                    推动潜在客户整合活动。
+mautic:integration:synccontacts	                        从集成中获取线索。
+mautic:iplookup:download	                            为利用本地查找的IP查找服务获取远程数据存储
+mautic:maintenance:cleanup	                            更新Mautic应用程序
+mautic:messages:send	                                处理消息队列发送。
+mautic:migrations:generate	                            生成空白迁移类。
+mautic:plugins:install	                                安装，更新，启用和/或禁用插件。
+mautic:plugins:reload	                                安装，更新，启用和/或禁用插件。
+mautic:plugins:update	                                安装，更新，启用和/或禁用插件。
+mautic:queue:process	                                处理队列
+mautic:reports:scheduler	                            处理报告导出的计划程序
+mautic:segments:check-builders	                        比较给定细分的查询构建器的输出
+mautic:segments:rebuild	                                根据新的联系人数据更新智能细分中的联系人。
+mautic:segments:update	                                根据新的联系人数据更新智能细分中的联系人。
+mautic:social:monitoring	                            查看监视器的记录并遍历它们。
+mautic:theme:json-config	                            将主题配置从PHP转换为JSON
+mautic:unusedip:delete	                                删除任何其他数据库表中未使用的IP地址
+mautic:update:apply	                                    更新Mautic应用程序
+mautic:update:find	                                    获取Mautic的更新
+mautic:webhooks:process	                                处理排队的Webhook有效负载
+social:monitor:twitter:hashtags	                        查看我们的监控记录并找到标签
+social:monitor:twitter:mentions	                        搜索提到的推文
