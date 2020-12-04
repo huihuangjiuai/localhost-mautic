@@ -112,3 +112,5 @@
 !/themes/blank-big.png
 
 /error
+/backup_database.bat
+/database_backup*
